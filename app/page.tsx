@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { Button } from "./_components/ui/button";
 
 export default function Home() {
   return (
-    <h1 className="text-slate-500">Página Principal</h1>
+    <Button>Teste</Button>
   );
 }
